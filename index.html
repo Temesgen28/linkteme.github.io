@@ -3,11 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Personal Website</title>
+  <title>Thanks - Personal Website</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Custom Footer CSS */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
 
@@ -22,7 +34,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#about">Programmer and Designer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -40,18 +58,60 @@
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- Programmer and Designer Section -->
   <section id="about" class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>About Me</h2>
-          <p>I am Software Programmer and Developer. This now under deveopment.</p>
+          <h2>Lecturer,Full Stack Developer and researcher</h2>
+          <p>As a lecturer, full-stack programmer, and app developer, as well as a dedicated researcher at Wolaita Sodo University, I find myself at the intersection of academia and cutting-edge technology. In my role as an educator, I impart knowledge and inspire the next generation of innovators, nurturing their passion for programming and fostering critical thinking skills. Simultaneously, as a proficient full-stack programmer and app developer, I thrive in the dynamic realm of software development, architecting robust solutions and crafting intuitive user experiences across the entire stack. My research endeavors at Wolaita Sodo University drive me to explore new frontiers in technology, pushing the boundaries of knowledge and contributing to advancements in various fields. With a relentless pursuit of excellence and a commitment to lifelong learning, I am dedicated to making meaningful contributions to both academia and the ever-evolving landscape of technology.</p>
         </div>
         <div class="col-md-6">
           <!-- Add an image of yourself here -->
-          <img src="html.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+          <img src="profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Portfolio</h2>
+      <!-- Add your portfolio items here -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="verification.png" class="card-img-top" alt="Portfolio Item 1">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Item 1</h5>
+              <p class="card-text">Description of portfolio item 1</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more portfolio items -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Blog</h2>
+      <!-- Add your blog posts here -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="blog-post-1.jpg" class="card-img-top" alt="Blog Post 1">
+            <div class="card-body">
+              <h5 class="card-title">Blog Post 1</h5>
+              <p class="card-text">Content of blog post 1</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more blog posts -->
       </div>
     </div>
   </section>
@@ -78,6 +138,13 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Temesgen Tadesse. All Rights Reserved.</p>
+    </div>
+  </footer>
 
   <!-- Bootstrap JS and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
